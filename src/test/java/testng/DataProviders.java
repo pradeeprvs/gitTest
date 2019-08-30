@@ -10,7 +10,7 @@ public class DataProviders {
 	public void loginTest(String uid, String pwd) {
 		System.out.println("User Name : "+uid);
 		System.out.println("Password : "+pwd);
-		System.out.println("just added this in Testing1 branch");
+		System.out.println("just added this in Master branch");
 
 	}
 
@@ -31,7 +31,7 @@ public class DataProviders {
 		
 		System.out.println("Parameter Value : "+url);
 		System.out.println("Parameter Value : "+test);
-		System.out.println("just added this in Testing1 branch");
+		System.out.println("just added this in Master branch");
 		
 	}
 }

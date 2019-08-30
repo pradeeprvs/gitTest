@@ -60,12 +60,12 @@ static int count=1;
 	@Test(dependsOnMethods = {"test2"},retryAnalyzer = Retry.class)
 	void test1() {
 		System.out.println("I am from test1(),I am dependent on test2(), hence it needs to execute first");
-		System.out.println("just added this in Testing1 branch");
-		System.out.println("just added this in Testing1 branch");
-		System.out.println("just added this in Testing1 branch");
-		System.out.println("just added this in Testing1 branch");
-		System.out.println("just added this in Testing1 branch");
-		System.out.println("just added this in Testing1 branch");
+		System.out.println("just added this in Master branch");
+		System.out.println("just added this in Master branch");
+		System.out.println("just added this in Master branch");
+		System.out.println("just added this in Master branch");
+		System.out.println("just added this in Master branch");
+		System.out.println("just added this in Master branch");
 		
 	}
 	
