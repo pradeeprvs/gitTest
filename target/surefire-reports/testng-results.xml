@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestSuite" duration-ms="31" started-at="2019-08-19T10:55:30Z" finished-at="2019-08-19T10:55:30Z">
+    <groups>
+    </groups>
+    <test name="TestRun" duration-ms="31" started-at="2019-08-19T10:55:30Z" finished-at="2019-08-19T10:55:30Z">
+      <class name="testng.DataProviders">
+        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:testng.DataProviders@17550481]" name="loginTest" duration-ms="4" started-at="2019-08-19T10:55:30Z" data-provider="getData" finished-at="2019-08-19T10:55:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pradeep]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:testng.DataProviders@17550481]" name="loginTest" duration-ms="0" started-at="2019-08-19T10:55:30Z" data-provider="getData" finished-at="2019-08-19T10:55:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="parameter(java.lang.String, java.lang.String)[pri:0, instance:testng.DataProviders@17550481]" name="parameter" duration-ms="0" started-at="2019-08-19T10:55:30Z" finished-at="2019-08-19T10:55:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[this is url]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[this is a value]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parameter -->
+      </class> <!-- testng.DataProviders -->
+    </test> <!-- TestRun -->
+  </suite> <!-- TestSuite -->
+</testng-results>
