@@ -15,10 +15,8 @@ public class Retry implements IRetryAnalyzer {
 			if (count < maxTry) {                            //Check if maxtry count is reached
 				count++;                                     //Increase the maxTry count by 1
 				result.setStatus(ITestResult.FAILURE);  //Mark test as failed
-				return true;                                 //Tells TestNG to re-run the test
-			} else {
-				result.setStatus(ITestResult.FAILURE);  //If maxCount reached,test marked as failed
-			}
+				return true; 
+				}                               //Tells TestNG to re-run the test
 		} else {
 			result.setStatus(ITestResult.SUCCESS);      //If test passes, TestNG marks it as passed
 		}
