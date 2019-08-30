@@ -21,6 +21,7 @@ static int count=1;
 	@BeforeSuite
 	public void before_Suite() {
 		System.out.println("Before Suite : "+count++);
+		System.out.println("Added from Testing1 branch");
 	}
 	@BeforeTest
 	public void before_Test() {
@@ -29,6 +30,7 @@ static int count=1;
 	@BeforeClass
 	public void before_Class() {
 		System.out.println("Before Class : "+count++);
+		System.out.println("Added from Testing1 branch");
 	}
 	@BeforeMethod
 	public void before_Method() {
@@ -67,16 +69,19 @@ static int count=1;
 		System.out.println("just added this in Master branch");
 		System.out.println("just added this in Master branch");
 		
+		System.out.println("Added from Testing1 branch");
 	}
 	
 	@Test(groups = {"smoke","regression"},retryAnalyzer = Retry.class)
 	void smokeTest1() {
 		System.out.println("smoke test 1");
+		System.out.println("Added from Testing1 branch");
 	}
 	
 	@Test(groups = {"smoke","regression"},retryAnalyzer = Retry.class)
 	void smokeTest2() {
 		System.out.println("smoke test 2");
+		System.out.println("Added from Testing1 branch");
 	}
 	
 	@Test(groups = {"sanity","regression"},retryAnalyzer = Retry.class)
