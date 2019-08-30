@@ -1,1 +1,1 @@
-During the merge, multiple files will be created, for the purpose of merging and displaying the different versions. This way the process is easy to understand for other software that you might want to integrate into your workflow.
+During th             , for the purpose of merging and displaying the different versions. This way the process is easy to understand for other         might want to integrate into your workflow.
