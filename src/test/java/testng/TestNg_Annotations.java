@@ -21,6 +21,7 @@ static int count=1;
 	@BeforeSuite
 	public void before_Suite() {
 		System.out.println("Before Suite : "+count++);
+		System.out.println("Added from Testing1 branch");
 	}
 	@BeforeTest
 	public void before_Test() {
@@ -29,6 +30,7 @@ static int count=1;
 	@BeforeClass
 	public void before_Class() {
 		System.out.println("Before Class : "+count++);
+		System.out.println("Added from Testing1 branch");
 	}
 	@BeforeMethod
 	public void before_Method() {
@@ -60,16 +62,19 @@ static int count=1;
 	@Test(dependsOnMethods = {"test2"},retryAnalyzer = Retry.class)
 	void test1() {
 		System.out.println("I am from test1(),I am dependent on test2(), hence it needs to execute first");
+		System.out.println("Added from Testing1 branch");
 	}
 	
 	@Test(groups = {"smoke","regression"},retryAnalyzer = Retry.class)
 	void smokeTest1() {
 		System.out.println("smoke test 1");
+		System.out.println("Added from Testing1 branch");
 	}
 	
 	@Test(groups = {"smoke","regression"},retryAnalyzer = Retry.class)
 	void smokeTest2() {
 		System.out.println("smoke test 2");
+		System.out.println("Added from Testing1 branch");
 	}
 	
 	@Test(groups = {"sanity","regression"},retryAnalyzer = Retry.class)

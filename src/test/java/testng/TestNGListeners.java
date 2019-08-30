@@ -14,6 +14,7 @@ public class TestNGListeners implements ITestListener {
 	public void onTestStart(ITestResult result) {
 		// TODO Auto-generated method stub
 		System.out.println("Execution Started for the Method : "+result.getName());
+		System.out.println("Added from Testing1 branch");
 		
 	}
 
@@ -27,7 +28,7 @@ public class TestNGListeners implements ITestListener {
 	public void onTestFailure(ITestResult result) {
 		// TODO Auto-generated method stub
 		System.out.println("Execution Failed for the Method : "+result.getName());
-		
+		System.out.println("Added from Testing1 branch");
 	}
 
 	@Override
