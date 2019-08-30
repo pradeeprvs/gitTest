@@ -11,8 +11,7 @@ public class DataProviders {
 		System.out.println("User Name : "+uid);
 		System.out.println("Password : "+pwd);
 		System.out.println("just added this in Master branch");
-		System.out.println("Added from Testing1 branch");
-		System.out.println("Added from Testing1 branch");
+	
 
 	}
 
