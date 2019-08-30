@@ -36,6 +36,9 @@ public class TestNGListeners implements ITestListener {
 		System.out.println("Some code");
 		System.out.println("Some code");
 		System.out.println("Some code");System.out.println("Some code");
+		System.out.println("Some more code");
+		System.out.println("Some more code");System.out.println("Some more code");
+		System.out.println("Some more code");
 		
 
 	}
